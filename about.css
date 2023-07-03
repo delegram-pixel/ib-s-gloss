@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+
+     
+}
+
+h1{
+    font-size: 40px;
+    color:beige;
+    align-items:left;
+}
+p{
+    color:linen;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+}
+
+section{
+    background-color: lightcoral;
+    height:80px; 
+    width:auto;
+  }
+
+  .card{
+    height: 650px;
+    width: auto;
+    background-color: lightcoral;
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+
+  .container{
+    width: 97%;
+    margin: auto;
+}
+
+nav{
+    height:80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:white;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background-color:red;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color:red;
+}

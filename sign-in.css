@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+section{
+    background-color:lightcoral;
+    height:80px;
+    width: auto;
+}
+
+.card{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    margin-top: 115px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    padding-top:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.container{
+    width: 97%;
+    margin: auto;
+}
+
+nav{
+    height:80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:white;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background-color:red;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color:red;
+}
+
+  
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border-bottom: 2px solid lightcoral;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border-bottom: 2px solid lightcoral;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: lightcoral;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+
+  input[type=signin] {
+    background-color: lightcoral;
+    color: white;
+    padding: 12px 20px;
+    margin-top: -40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 80px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #387be8;
+  }
+
+  input[type=signin]:hover {
+    background-color: #387be8;
+  }
+  
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .container-2{
+    margin-top: 50px;
+  }
+
+  .row-2{
+    margin-top: 20px;
+  }
+  .row-3{
+    margin-top: 60px;
+  }
+
+  .p{
+    text-align:left;
+    font-size: 12px;
+    font-weight:400;
+  }
+
+  .p a{
+    text-decoration: none;
+    color:black;
+
+  }
+  .p a:hover{
+    color:#387be8;
+  }
+

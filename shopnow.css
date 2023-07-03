@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+     
+}
+
+section{
+    height: 80px;
+    width: auto;
+    background-color:lightcoral;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-1{
+    background-color: lightslategray;
+    height: 300px;
+    width: auto;
+    margin:auto;
+    margin-left: -25px;
+    margin-right: -23px;
+    margin-top: 30px;
+}
+
+
+.box-2{
+    background-color: lightslategray;
+    height: 300px;
+    width: auto;
+    margin:auto;
+    margin-left: -25px;
+    margin-right: -23px;
+    margin-top: 30px;
+}
+
+.box-3{
+    background-color: lightslategray;
+    height: 300px;
+    width: auto;
+    margin:auto;
+    margin-left: -25px;
+    margin-right: -23px;
+    margin-top: 30px;
+}
+
+.container{
+    width: 97%;
+    margin: auto;
+}
+
+nav{
+    height:80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:white;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color:red;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color:red;
+}

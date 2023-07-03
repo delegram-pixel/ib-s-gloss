@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+     
+}
+
+main{
+  background-color: lightcoral;
+  height:80px; 
+  width:auto;
+}
+
+
+.box{
+    width: 97%;
+    margin: auto;
+}
+
+nav{
+    height:80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: white;
+    background-image: url('/image/E4111936-6E65-41ED-A4F7-3F1599EF4C8D_L0_001.jpg');
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background-color:red;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color:red;
+}
+
+/*form*/
+
+.container-forms{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#4070f4;
+    column-gap: 30px;
+}
+
+.forms-login{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.form .signup{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.forms .show-signup .form.signup{
+    
+}
